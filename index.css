@@ -13,6 +13,7 @@ form {
 }
 
 input[type="text"] {
+  font-size: xx-large;
 }
 h1 {
   color: blueviolet;
