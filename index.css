@@ -7,11 +7,10 @@ body {
 form {
   font-size: 75px;
   background-color: rgba(210, 105, 30, 0.39);
-  width: 20%;
-  height: 1200px;
   border-radius: 4%;
-  margin-top: 500px;
-  margin-left: 2300px;
+  position: absolute;
+  left: 38%;
+  top: 20%;
 }
 button {
   width: 300px;
@@ -37,7 +36,7 @@ input[type="text"] {
   font-size: 55px;
 }
 h1 {
-  font-size: 110px;
+  font-size: 200px;
   color: red;
   text-align: center;
 }
