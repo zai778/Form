@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1>happy New Year</h1>
+    <form action="https://formspree.io/f/xbjwqbjq" method="post">
+      <label>
+        vorname:
+        <input
+          name="firstname"
+          type="text"
+          placeholder="vorname eingeben"
+          required
+        />
+      </label>
+      <br />
+      <label>
+        Nachname:
+        <input
+          name="nickname"
+          type="text"
+          placeholder="nachname eingeben"
+          required
+        />
+      </label>
+      <br />
+      <label>
+        Alter:
+        <input type="number" name="Alter" required />
+      </label>
+      <br />
+      <label>
+        Deine Nachricht:
+        <textarea
+          name="message"
+          placeholder="hier wünschen"
+          cols="30"
+          rows="10"
+        ></textarea>
+      </label>
+      <br />
+      <label>
+        Dein Lieblingsessen:
+        <select required name="essen">
+          <option value="kebab">kebab</option>
+          <option value="döner">döner</option>
+          <option value="mandi">mandi</option>
+          <option value="linsen suppe">linsen suppe</option>
+        </select>
+      </label>
+      <br />
+      <button type="submit">send</button>
+    </form>
+  </body>
+</html>
